@@ -4,7 +4,7 @@ import { ConfigService } from '@nestjs/config';
 import { Redis } from 'ioredis';
 import { IORedisKey } from 'src/redis.module';
 import { AddParticipantData, CreatePollData } from './types';
-import { Poll } from 'shared';
+import { Poll } from '../../../shared';
 
 @Injectable()
 export class PollsRepository {
